@@ -1,0 +1,20 @@
+# Git
+.git
+.gitignore
+
+# Ambiente Virtual
+venv
+.venv
+
+# Cache do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Arquivo de banco de dados (para não incluir o DB local na imagem)
+escola.db
+escola.db-journal
+
+# Configurações de IDE
+.vscode/
